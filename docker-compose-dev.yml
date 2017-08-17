@@ -1,0 +1,50 @@
+version: "3"
+
+services:
+  app:
+    image: onuryilmaz/golang-phantomjs
+    command: go run main.go
+    volumes:
+      - ./src:/go/src/go-workers
+      - ./vendor:/go/src
+    working_dir: /go/src/go-workers
+    ports:
+      - "8081:8081"
+    networks:
+      - front-tier
+      - back-tier
+    links:
+      - redis
+    environment:
+      REDIS_URL: redis:6379
+  workers:
+    image: onuryilmaz/golang-phantomjs
+    command: go run main.go
+    volumes:
+      - ./src:/go/src/go-workers
+      - ./vendor:/go/src
+    working_dir: /go/src/go-workers
+    networks:
+      - front-tier
+      - back-tier
+    links:
+      - redis
+    environment:
+      REDIS_URL: redis:6379
+      IS_WORKER: "true"
+      NUM_WORKERS: 9
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - back-tier
+
+volumes:
+  db-data:
+
+networks:
+  front-tier:
+  back-tier:

@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "0EhLvZ6Og9HYqJtCc2Dzs1EgM30=",
+			"path": "github.com/bitly/go-simplejson",
+			"revision": "da1a8928f709389522c8023062a3739f3b4af419",
+			"revisionTime": "2017-02-06T15:46:32Z"
+		},
+		{
+			"checksumSHA1": "2UmMbNHc8FBr98mJFN1k8ISOIHk=",
+			"path": "github.com/garyburd/redigo/internal",
+			"revision": "9e66b83d15a259978be267d0b61838c42c3904e3",
+			"revisionTime": "2017-07-18T22:17:51Z"
+		},
+		{
+			"checksumSHA1": "mb7JV1M7OFsuHlXEPY/LdVBGKVg=",
+			"path": "github.com/garyburd/redigo/redis",
+			"revision": "9e66b83d15a259978be267d0b61838c42c3904e3",
+			"revisionTime": "2017-07-18T22:17:51Z"
+		},
+		{
+			"checksumSHA1": "Q5+iIIQB+XY8RKBOqp5kkD/nryc=",
+			"path": "github.com/jrallison/go-workers",
+			"revision": "d60d79dbbfbb83f849d2430013a59152845fa598",
+			"revisionTime": "2016-12-02T00:02:16Z"
+		},
+		{
+			"checksumSHA1": "/XFTeQHqRs9Fw29A0PPK1yJHrG4=",
+			"path": "github.com/nladuo/go-phantomjs-fetcher",
+			"revision": "972567ff937fb9b9209bf5b20a58b4bb7d6661b3",
+			"revisionTime": "2016-10-27T06:20:30Z"
+		},
+		{
+			"checksumSHA1": "+4r0PnLwwyhO5/jvU5R/TEJb4kA=",
+			"path": "gopkg.in/bsm/ratelimit.v1",
+			"revision": "db14e161995a5177acef654cb0dd785e8ee8bc22",
+			"revisionTime": "2016-02-20T15:49:07Z"
+		},
+		{
+			"checksumSHA1": "SPIlcnhp57fmsD8mejIaOLFtmpI=",
+			"path": "gopkg.in/redis.v4",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		},
+		{
+			"checksumSHA1": "u24d3wK+Otp3+nu3wSQOMqhg+N8=",
+			"path": "gopkg.in/redis.v4/internal",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		},
+		{
+			"checksumSHA1": "l+1jiOGUyjHP0u0mB+KiT/UHVcY=",
+			"path": "gopkg.in/redis.v4/internal/consistenthash",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		},
+		{
+			"checksumSHA1": "XxoAGEMN5ZCJJ3FeDMSTVhvscHg=",
+			"path": "gopkg.in/redis.v4/internal/errors",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		},
+		{
+			"checksumSHA1": "6XSNzBg5bzd2TjEfC/q41tPT/Zg=",
+			"path": "gopkg.in/redis.v4/internal/hashtag",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		},
+		{
+			"checksumSHA1": "fYkMv2BMIeHKM1VirUzJ7A/jG7w=",
+			"path": "gopkg.in/redis.v4/internal/pool",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		},
+		{
+			"checksumSHA1": "BGzuM8ZpMCmTKWnb/3CtrV4OwDU=",
+			"path": "gopkg.in/redis.v4/internal/proto",
+			"revision": "c938162545c57136fa59879746bc65d0f1db3d1e",
+			"revisionTime": "2016-12-20T10:13:33Z"
+		}
+	],
+	"rootPath": "github.com/rmoreira/go-workers-in-rancher"
+}
